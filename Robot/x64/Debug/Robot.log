@@ -1,0 +1,23 @@
+﻿生成启动时间为 2021/9/17 17:04:46。
+     1>项目“C:\Users\user\Desktop\ROBOT\Robot\Robot.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (TriangulateVMS.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include/ /ZI /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt DHClass.cpp Robot.cpp
+         DHClass.cpp
+     1>c:\users\user\desktop\robot\robot\dhclass.cpp(645): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\user\desktop\robot\robot\dhclass.cpp(688): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>c:\users\user\desktop\robot\robot\dhclass.cpp(436): warning C4715: “DH::UpdateJoint”: 不是所有的控件路径都返回值
+         正在编译...
+         Robot.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../libraries/Robot_64.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"../libraries/Robot_64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../libraries/Robot_64.lib" /MACHINE:X64 x64\Debug\DHClass.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Robot.obj
+         Robot.vcxproj -> C:\Users\user\Desktop\ROBOT\Robot\../libraries/Robot_64.exe
+     1>已完成生成项目“C:\Users\user\Desktop\ROBOT\Robot\Robot.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.78

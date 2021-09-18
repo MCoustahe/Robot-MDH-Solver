@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (TriangulateVMS.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Robot.cpp
+h:\code\robot\triangulatevms\robot.cpp(64): warning C4101: “cameraID”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(64): warning C4101: “photoID”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(137): warning C4101: “cameraID”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(136): warning C4101: “ch”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(137): warning C4101: “photoID”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(263): warning C4101: “xd”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(263): warning C4101: “yd”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(391): warning C4101: “pob1_v”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(391): warning C4101: “dy”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(391): warning C4101: “pob1_u”: 未引用的局部变量
+h:\code\robot\triangulatevms\robot.cpp(391): warning C4101: “dx”: 未引用的局部变量
+  TriangulateVMS.vcxproj -> H:\Code\ROBOT\TriangulateVMS\../libraries/Robot_64.exe
+  TriangulateVMS.vcxproj -> ../libraries/Robot_64.pdb (Full PDB)
